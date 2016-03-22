@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html x-ng-app="myApp">
+	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular-route.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular-resource.js"></script>
+        <script src="main.js"></script>
+        <script src="controllers.js"></script>
+        <link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+        <header>
+            <ul>
+                <li><a href="#/task1">Task 1</a></li>
+                <li><a href="#/task2">Task 2</a></li>
+                <li><a href="#/task3">Task 3</a></li>
+                <li><a href="#/task4">Task 4</a></li>
+                <li><a href="#/task5">Task 5</a></li>
+                <li><a href="#/task6">Task 6</a></li>
+            </ul>
+        </header>
+        <div class="targetDiv" ng-view>
+             
+        </div>
+        
+	</body>
+</html>
+
+
+

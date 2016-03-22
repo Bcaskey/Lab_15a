@@ -1,0 +1,109 @@
+header {
+  background-color: tomato;
+  height: 40px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+}
+header li {
+  display: inline;
+}
+header li a {
+  padding: 0px 10px 0px 10px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+header li a:hover,
+header li a:focus {
+  color: #434343;
+}
+
+.targetDiv {
+    padding-top: 24px;
+}
+
+.task3A_divClass {
+    background-color: red;
+    width: 60px;
+    height: 50px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+
+.task3B_divClass {
+    background-color: dodgerblue;
+    width: 60px;
+    height: 50px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+
+.css-class-add, .css-class-remove {
+  -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+  -moz-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+  -o-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+  transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+}
+
+.css-class,
+.css-class-add.css-class-add-active {
+    background-color: red;
+    width: 60px;
+    height: 50px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+
+.css-class-remove.css-class-remove-active {
+    background-color: dodgerblue;
+    width: 60px;
+    height: 50px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+/*#task4_div {
+    background-color: #fff;
+    border: 1px solid #000;
+    width: 146px;
+    height: 40px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold; 
+    text-align: center;
+}*/
+#button5 {
+    width: 100px;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 11px;
+    float: left;
+    margin: auto;
+}
+
+.navButton {
+    width: 87px;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    float: left;
+    margin: auto;
+}
